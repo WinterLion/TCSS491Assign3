@@ -1,0 +1,31 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HomePixelWorld</title>
+    <script type="text/javascript" src="./game/gameengine.js"></script>
+    <script type="text/javascript" src="./game/assetmanager.js"></script>
+    <script type="text/javascript" src="./game/animation.js"></script>
+    <script type="text/javascript" src="./game/corefunctions.js"></script>
+
+    <!-- Add Entity files here-->
+    <script type="text/javascript" src="./entities/entitiesabstract.js"></script>  
+    <script type="text/javascript" src="./entities/Bullet.js"></script>    
+    <script type="text/javascript" src="./entities/Fighter.js"></script> 
+	<script type="text/javascript" src="./entities/Frigate.js"></script> 
+    <script type="text/javascript" src="./entities/Carrier.js"></script>
+	<script type="text/javascript" src="./entities/Resource.js"></script>
+	<script type="text/javascript" src="./entities/Resourcer.js"></script>
+	<script type="text/javascript" src="./entities/Star.js"></script>
+    
+</head>
+<body>
+    <canvas id="SpaceSector" tabindex="1" width="800" height="800" style="border: 1px solid brown; background: black"></canvas>
+	<button type="button" id="saveButton">Save</button>
+	<button type="button" id="loadButton">Load</button>
+	<script type="text/javascript" src="http://76.28.150.193:8888/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="./game/main.js"></script>
+	
+</body>
+</html>
